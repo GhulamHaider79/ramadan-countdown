@@ -1,19 +1,24 @@
-body{
+body {
     height: 100vh;
-    background-image: linear-gradient(to right, #5d2a1f, #793017);!important
+    background-image: linear-gradient(to right, #5d2a1f, #793017);
+    !important
 }
-.navbar{
-    background-color: transparent;!important
+
+.navbar {
+    background-color: transparent;
+    !important
 }
-.main-contant{
-    width: 75%;
+
+.main-contant {
+    width: 80%;
     height: 400px;
     background-color: #e3a846;
     border-radius: 12px;
     box-shadow: 5px 5px 5px #888888;
 
 }
-.assalamOAlikum{
+
+.assalamOAlikum {
     max-width: 80%;
     text-align: center;
     margin-top: 0.5rem;

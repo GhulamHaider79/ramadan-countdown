@@ -1,15 +1,14 @@
 body {
     height: 100vh;
-    background-image: linear-gradient(to right, #5d2a1f, #793017);
-    !important
+    background-image: linear-gradient(to right, #5d2a1f, #793017); 
 }
 
 .navbar {
     background-color: transparent;
-    !important
+    
 }
 
-.main-contant {
+.main-content {
     width: 80%;
     height: 30%;
     background-color: #e3a846;

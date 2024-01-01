@@ -1,8 +1,9 @@
-var endDate = new Date("March 10, 2024 23:59:59").getTime();
+
+function ramadanCounter() {
+    var endDate = new Date("March 11, 2024 23:59:59").getTime();
 var newDate = new Date().getTime();
 var diffDate = endDate - newDate;
 
-function ramadanCounter() {
 
     var month = Math.floor(diffDate / (1000 * 60 * 60 * 24 * 30));
     var day = Math.floor(diffDate % (1000 * 60 * 60 * 24 * 30) / (1000 * 60 * 60 * 24));
@@ -16,7 +17,7 @@ function ramadanCounter() {
     var counter = document.querySelector('.second').innerText = second;
 }
 
+setInterval(ramadanCounter,1000);
 
-setInterval(ramadanCounter, 1000);
 
 ramadanCounter()
